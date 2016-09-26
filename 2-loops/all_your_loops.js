@@ -4,7 +4,20 @@
 */
 var checkz = 0;
 
+for (i = 0; i < 5; i++) {
+checkz++;
+}
+
+
 /*
 2 - Write a while loop that runs 3 times. Each iteration will decrease
     the value of checkz by 2
 */
+
+
+while(i > 2) {
+
+checkz = checkz - 2;
+i--;
+
+}
